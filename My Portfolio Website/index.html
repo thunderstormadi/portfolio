@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bdc68b76d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2.png" class="logo">
+                <ul>
+                   <li><a href="#"> Home</a></li>
+                   <li><a href="#"> About Me</a></li>
+                   <li><a href="#"> Services</a></li>
+                   <li><a href="#"> Portfolio</a></li>
+                   <li><a href="#"> Contact Me</a></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer
+                </p>
+                <h1> Hi,I am <span> Aditya Sharma</span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about"> 
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo2.jpg"> </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title"> About Me</h1>
+                        
+                        <p>Hi, I'm Aditya Sharma, a Tech Enthusiast and Aspiring Engineer. I am currently pursuing my B.Tech degree in Electronics and Communication Engineering from the National Institute of Technology (NIT) Silchar. My passion for technology drives me to continuously learn and apply my knowledge to bring about positive changes in society. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')"> Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>WEB DEVELOPMENT </span><br>Web app development</li>
+                                <li><span>MACHINE LEARNING</span><br>Machine Learning models</li>
+                                <li><span>Computing Languages </span><br>Java/Python/C/C++/<br>Java Script/Html/CSS </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>WEB DEVELOPMENT </span><br>FRONT END</li>
+                                <li><span>MACHINE LEARNING</span><br>FRONT END</li>
+                                <li><span>DEEP LEARNING </span><br>FRONT END </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>WEB DEVELOPMENT </span><br>Web app development</li>
+                                <li><span>MACHINE LEARNING</span><br>ML models</li>
+                                <li><span>COMPUTING LANGUAGES </span><br>Java/Python/C/C++/<br>Java Script/Html/CSS </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>WEB DEVELOPMENT</h2>
+                    <P>As a budding web developer, I have been honing my skills by creating a variety of basic projects using HTML, CSS, and JavaScript. This hands-on experience allows me to explore the fundamental aspects of web design and development, from crafting responsive layouts with HTML and CSS to adding dynamic interactivity with JavaScript. By working on these projects, I aim to build a strong foundation in web development principles and techniques, preparing myself for more complex and advanced projects in the future. Each project I undertake helps me to learn and grow as a developer, continually expanding my knowledge and skill set in this exciting field.</P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>MACHINE LEARNING</h2>
+                    <P>As an enthusiastic machine learning aficionado, I am beginning my journey to master this transformative field. My passion drives me to explore its vast potential and applications. By diving into the fundamentals, studying algorithms, and understanding the underlying mathematics, I aim to harness the power of data. Through practical projects and continuous learning, I am developing skills to create models that recognize patterns and make predictions. My goal is to build a solid foundation to tackle more complex machine learning challenges, contributing to AI's exciting world and exploring endless possibilities.</P>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>COMPUTING LANGUAGES</h2>
+                    <P>With an intermediate level of proficiency in Python, C, and C++, I have gained a solid foundation in these programming languages. Python's simplicity and versatility allow me to work on a variety of projects, from web development to data analysis. My understanding of C has provided me with insights into low-level programming and system operations. Additionally, C++ has equipped me with the ability to implement object-oriented programming principles and manage more complex software systems.</P>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3> WEB DEVELOPMENT </h3>
+                        <p> All the Web development projects</p>
+                        <a href="#"> <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3> MACHINE LEARNING </h3>
+                        <p> All the Machine Learning projects</p>
+                        <a href="#"> <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3> COMPUTATIONAL LANGUAGES </h3>
+                        <p> All the projects</p>
+                        <a href="#"> <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> topadityasharma@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>9864061954</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""> <i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i> </a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                    <input type="text" name="Name" placeholder="Your Name" required >
+                    <input type="email" name="email" placeholder=" Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyrighyt @ Made by Aditya Sharma with <i class="fa-regular fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+</body>
+</html>
